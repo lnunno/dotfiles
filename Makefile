@@ -3,6 +3,7 @@
 .PHONY: install
 install:
 	stow -t ~ .
+	stow -t ~/.oh-my-zsh/themes zsh-themes
 
 .PHONY: uninstall
 uninstall:

@@ -2,3 +2,5 @@ Makefile
 .stow-local-ignore
 README.md
 LICENSE
+.git
+
