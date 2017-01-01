@@ -19,16 +19,15 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 export EDITOR='vim'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # Source all user defined aliases
 for file in ~/alias.d/*; do
     source "$file"
 done
 
 export GOPATH=~/projects/go
-export PATH=/opt/VSCode-linux-x64:~/bin:$GOPATH/bin:$PATH
+export PATH=/opt/VSCode-linux-x64:~/bin:~/scripts:$GOPATH/bin:$PATH
 
+# Source scripts for terminal tools.
 source virtualenvwrapper.sh
 . /usr/share/autojump/autojump.sh
-
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
