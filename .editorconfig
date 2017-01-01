@@ -3,15 +3,20 @@
 # top-most EditorConfig file
 root = true
 
-# Unix-style newlines with a newline ending every file
+# Sensible defaults, can be overriden by file extension below.
 [*]
 end_of_line = lf
 insert_final_newline = true
 charset = utf-8
 indent_style = space
+indent_size = 4
 trim_trailing_whitespace = true
 
+# Special case for Makefiles since they are tab-delimited
 [Makefile]
+indent_style = tab
+
+[*.{tsv}]
 indent_style = tab
 
 [*.{yml, yaml}]
