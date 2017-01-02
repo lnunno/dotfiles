@@ -24,7 +24,7 @@ antigen bundles <<EOBUNDLES
   pip
   autopep8
   httpie
-  virtualenv
+  #virtualenv
   virtualenvwrapper
 
 
