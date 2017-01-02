@@ -12,7 +12,7 @@ precmd_functions+=(get_git_repo)
 
 # Do this so we can get the repo name in the git parens.
 ZSH_THEME_GIT_PROMPT_PREFIX=""
-ZSH_THEME_GIT_PROMPT_BRANCH="%{$fg_bold[magenta]%}⎇ "
+ZSH_THEME_GIT_PROMPT_BRANCH="%{$fg_bold[magenta]%}⎇  "
 PROMPT='%{$fg[yellow]%}%n@%m %{$fg_bold[cyan]%}%2c%{$reset_color%} %{$fg[magenta]%}%D{%a %d %b %Y %X %Z}%{$reset_color%} ${ZSH_LUCAS_THEME_GIT_INFO}
 ${ret_status} '
 
