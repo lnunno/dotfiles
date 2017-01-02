@@ -27,6 +27,12 @@ antigen bundles <<EOBUNDLES
   #virtualenv
   virtualenvwrapper
 
+  # Rust bundles
+  rust
+  cargo
+
+  # Golang bundles
+  golang
 
   # Custom aliases
   lnunno/dotfiles alias.d
