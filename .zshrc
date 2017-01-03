@@ -69,6 +69,7 @@ gpip() {
     PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
 
-. /usr/share/autojump/autojump.sh
+[ -f /etc/profile.d/autojump.sh ]  && . /etc/profile.d/autojump.sh
+[ -f /usr/share/autojump/autojump.sh ] && . /usr/share/autojump/autojump.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
