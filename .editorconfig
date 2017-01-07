@@ -16,7 +16,11 @@ trim_trailing_whitespace = true
 [Makefile]
 indent_style = tab
 
-[*.{tsv}]
+[*.tsv]
+indent_style = tab
+
+# This complies with gofmt
+[*.go]
 indent_style = tab
 
 [*.{yml, yaml}]
