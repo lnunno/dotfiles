@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 18,
+    "editor.rulers": [
+        100
+    ],
+    "files.associations": {
+        "*.jsonschema": "json",
+        "Vagrantfile": "ruby"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000
+}
