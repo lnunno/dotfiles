@@ -48,8 +48,8 @@ export PATH=/opt/VSCode-linux-x64:~/bin:~/scripts:$GOPATH/bin:$PATH
 # Source scripts for terminal tools.
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 export PIP_CONFIG_FILE=~/pip.conf
-source virtualenvwrapper.sh
 
+[ -f virtualenvwrapper.sh ]  && source virtualenvwrapper.sh
 [ -f /etc/profile.d/autojump.sh ]  && . /etc/profile.d/autojump.sh
 [ -f /usr/share/autojump/autojump.sh ] && . /usr/share/autojump/autojump.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
