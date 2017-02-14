@@ -1,97 +1,105 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    //  Eclipse shortcut bindings.
-    // See: https://gist.github.com/ansgarschulte/0f959243f63f9fd1436b
-    {
-        "key": "ctrl+shift+r",
-        "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+shift+f",
-        "command": "editor.action.format",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+ctrl+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+ctrl+up",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+down",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+up",
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "editor.action.deleteLines",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+ctrl+r",
-        "command": "editor.action.rename",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+space",
-        "command": "editor.action.triggerSuggest",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "f3",
-        "command": "editor.action.goToDeclaration",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+1",
-        "command": "editor.action.quickFix",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+g",
-        "command": "editor.action.referenceSearch.trigger",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+t",
-        "command": "workbench.action.showAllSymbols"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.gotoLine"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "ctrl+shift+s",
-        "command": "workbench.action.files.saveAs"
-    },
-    {
-        "key": "ctrl+alt+s",
-        "command": "workbench.action.files.saveAll"
-    },
-    {
-        "key": "ctrl+alt+f",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+c",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+o",
-        "command": "workbench.action.files.openFolder"
-    }
+  //  Eclipse shortcut bindings.
+  // See: https://gist.github.com/ansgarschulte/0f959243f63f9fd1436b
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "editor.action.format",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+ctrl+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+ctrl+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+ctrl+r",
+    "command": "editor.action.rename",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "f3",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "editor.action.quickFix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "editor.action.referenceSearch.trigger",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveAs"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.files.openFolder"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward"
+  }
 ]
