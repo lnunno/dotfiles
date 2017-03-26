@@ -1,13 +1,17 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.rulers": [
-        100
+        120
     ],
     "files.associations": {
         "*.jsonschema": "json",
         "Vagrantfile": "ruby"
     },
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 5000
+    "files.autoSaveDelay": 5000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons"
 }
