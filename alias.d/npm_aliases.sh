@@ -1,0 +1,7 @@
+alias n='npm'
+alias ni='npm install'
+alias nr='npm run'
+alias ns='npm run start'
+alias nb='npm run build'
+alias nclean='rm -rf build node_modules'
+alias ncc='nclean && ni && nb'
