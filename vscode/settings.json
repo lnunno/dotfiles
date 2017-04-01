@@ -1,17 +1,23 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 16,
-    "editor.rulers": [
-        120
-    ],
-    "files.associations": {
-        "*.jsonschema": "json",
-        "Vagrantfile": "ruby"
-    },
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 5000,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "window.zoomLevel": 0,
-    "workbench.iconTheme": "vscode-icons"
+  "editor.fontSize": 16,
+  "editor.rulers": [
+    120
+  ],
+  "files.associations": {
+    "*.jsonschema": "json",
+    "Vagrantfile": "ruby"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": true,
+  "editor.dragAndDrop": true,
+  "rust.actionOnSave": "check",
+  "rust.showOutput": false,
+  "editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'"
 }

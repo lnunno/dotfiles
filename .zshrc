@@ -42,12 +42,8 @@ antigen theme lnunno/dotfiles zsh-themes/lucas
 # Apply all Antigen configuration
 antigen apply
 
-export GOPATH=~/projects/go
-export PATH=/opt/VSCode-linux-x64:~/bin:~/scripts:$GOPATH/bin:$PATH
-
-# Source scripts for terminal tools.
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-export PIP_CONFIG_FILE=~/pip.conf
+# Source local configurations. Use this to setup machine specific PATH, GOPATH, etc.
+[ -f ~/.zshrc-local ] && source ~/.zshrc-local
 
 [ -f virtualenvwrapper.sh ]  && source virtualenvwrapper.sh
 [ -f /etc/profile.d/autojump.sh ]  && . /etc/profile.d/autojump.sh
