@@ -26,6 +26,7 @@ Plugin 'editorconfig/editorconfig-vim'
 
 " This needs to be compiled/installed explicitly in ~/.vim/bundles/youcompleteme
 "Plugin 'valloric/youcompleteme'
+Plugin 'davidhalter/jedi-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

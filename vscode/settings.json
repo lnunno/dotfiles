@@ -20,6 +20,6 @@
   "editor.dragAndDrop": true,
   "rust.actionOnSave": "check",
   "rust.showOutput": false,
-"editor.fontFamily": "'DejaVu Sans Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-"workbench.activityBar.visible": true
+  "editor.fontFamily": "'Roboto Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "workbench.activityBar.visible": true
 }
