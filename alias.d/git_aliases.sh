@@ -18,3 +18,4 @@ alias git-prune-branches='git branch --merged | grep -v "\*" | grep -Ev "(\*|mas
 
 # Git push branch to origin's branch of the same name.
 alias git-push-upstream='git push --set-upstream origin $(git symbolic-ref --short HEAD)'
+alias gpu='git-push-upstream'
