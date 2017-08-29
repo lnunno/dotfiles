@@ -1,3 +1,4 @@
+alias lh='ls -lh'
 alias v='vim'
 alias abs='realpath'
 alias abspath='realpath'
