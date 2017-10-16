@@ -19,6 +19,7 @@ antigen bundles <<EOBUNDLES
   git-prompt
   mvn
   autojump
+  terraform
 
   # Python bundles
   pip
