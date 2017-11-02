@@ -6,6 +6,10 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "shift+alt+a",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
     "key": "shift+alt+o",
     "command": "workbench.action.closeOtherEditors"
   },
