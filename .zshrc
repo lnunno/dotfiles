@@ -17,9 +17,13 @@ antigen bundles <<EOBUNDLES
   zsh-users/zsh-autosuggestions
   git
   git-prompt
-  mvn
   autojump
   terraform
+  
+  # Package managers
+  mvn
+  yum
+  debian
 
   # Python bundles
   pip
