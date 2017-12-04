@@ -10,6 +10,8 @@ alias glv="git log -p"
 alias gc="git commit"
 alias gcv="git commit -v"
 alias gco="git checkout"
+alias gcod="git checkout develop"
+alias gcom="git checkout master"
 alias gm="git merge"
 alias gd="git diff"
 alias gpo='git push --set-upstream origin'
@@ -18,3 +20,4 @@ alias git-prune-branches='git branch --merged | grep -v "\*" | grep -Ev "(\*|mas
 
 # Git push branch to origin's branch of the same name.
 alias git-push-upstream='git push --set-upstream origin $(git symbolic-ref --short HEAD)'
+alias gpu='git-push-upstream'

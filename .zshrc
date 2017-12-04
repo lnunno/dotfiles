@@ -17,13 +17,19 @@ antigen bundles <<EOBUNDLES
   zsh-users/zsh-autosuggestions
   git
   git-prompt
-  mvn
   autojump
+  terraform
+  
+  # Package managers
+  mvn
+  yum
+  debian
 
   # Python bundles
   pip
   autopep8
   httpie
+  esc/conda-zsh-completion
 
   # Rust bundles
   rust
@@ -49,4 +55,3 @@ antigen apply
 [ -f /etc/profile.d/autojump.sh ]  && . /etc/profile.d/autojump.sh
 [ -f /usr/share/autojump/autojump.sh ] && . /usr/share/autojump/autojump.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
