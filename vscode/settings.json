@@ -21,5 +21,9 @@
   "rust.actionOnSave": "check",
   "rust.showOutput": false,
   "editor.fontFamily": "'Roboto Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-  "workbench.activityBar.visible": true
+  "workbench.activityBar.visible": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "C_Cpp.intelliSenseEngine": "Default",
+  "C_Cpp.clang_format_path": "/usr/bin/clang-format-4.0",
+  "editor.renderWhitespace": "boundary"
 }
