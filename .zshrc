@@ -2,24 +2,29 @@
 export LANG=en_US.UTF-8
 export EDITOR='vim'
 
+antigen_script=~/antigen/antigen.zsh
+
 # Antigen configuration
-if [[ ! -a ~/antigen.zsh ]]; then
+if [[ ! -a ${antigen_script} ]]; then
     # Download the antigen script if it doesn't exist.
-    curl https://cdn.rawgit.com/zsh-users/antigen/v1.3.2/bin/antigen.zsh > ~/antigen.zsh
+    git clone https://github.com/zsh-users/antigen.git ~/antigen
 fi
-source ~/antigen.zsh
+source "${antigen_script}"
 antigen use oh-my-zsh
 
 # Install a list of antigen bundles
 antigen bundles <<EOBUNDLES
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-completions
-  zsh-users/zsh-autosuggestions
+  
+  # Due to bug: https://github.com/zsh-users/zsh-autosuggestions/issues/296
+  zsh-users/zsh-autosuggestions@v0.4.0
+  
   git
   git-prompt
   autojump
   terraform
-  
+
   # Package managers
   mvn
   yum
