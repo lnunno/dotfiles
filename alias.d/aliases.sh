@@ -17,5 +17,5 @@ cdf(){
 cdfile(){ cdf $1}
 
 # See: http://stackoverflow.com/questions/749544/pipe-to-from-the-clipboard
-alias setclip='xclip -selection c'
+alias setclip='xclip -selection clipboard'
 alias getclip='xclip -selection clipboard -o'
