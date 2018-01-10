@@ -1,0 +1,30 @@
+{
+  // Place your snippets for TypeScript React here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  "Typescript React Component": {
+    "prefix": "component",
+    "body": [
+      "interface ${componentName}Props {",
+      "",
+      "}",
+      "",
+      "interface ${componentName}State {",
+      "",
+      "}",
+      "",
+      "export class ${componentName} extends React.Component<${componentName}Props, ${componentName}State> {",
+      "",
+      "  public constructor(props: ${componentName}Props) {",
+      "    super(props);",
+      "  }",
+      "  public render() {",
+      "    return <div />;",
+      "  }",
+      "}",
+    ],
+    "description": "An empty react component that uses TypeScript."
+  }
+}
