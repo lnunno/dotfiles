@@ -1,5 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "workbench.colorCustomizations": {
+    "editorActiveLineNumber.foreground": "#f2f4f7",
+    "editor.lineHighlightBackground": "#272727"
+  },
   "editor.fontSize": 16,
   "editor.rulers": [
     120
@@ -18,12 +22,8 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": true,
   "editor.dragAndDrop": true,
-  "rust.actionOnSave": "check",
-  "rust.showOutput": false,
   "editor.fontFamily": "'Roboto Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
   "workbench.activityBar.visible": true,
   "vsicons.dontShowNewVersionMessage": true,
-  "C_Cpp.intelliSenseEngine": "Default",
-  "C_Cpp.clang_format_path": "/usr/bin/clang-format-4.0",
   "editor.renderWhitespace": "boundary"
 }
