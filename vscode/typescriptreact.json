@@ -67,7 +67,7 @@
       "  };",
       "}",
       "",
-      "export const ModeViewer = ReactRedux.connect(mapStateToProps, mapDispatchToProps)(Vanilla${componentName});"
+      "export const ${componentName} = ReactRedux.connect(mapStateToProps, mapDispatchToProps)(Vanilla${componentName});"
     ],
     "description": "An empty react-redux component that uses TypeScript."
   }
