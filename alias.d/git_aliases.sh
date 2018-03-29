@@ -8,6 +8,7 @@ alias gp="git push"
 alias gl="git log"
 alias glv="git log -p"
 alias gc="git commit"
+alias gcam='git commit -am'
 alias gcv="git commit -v"
 alias gco="git checkout"
 alias gcod="git checkout develop"
