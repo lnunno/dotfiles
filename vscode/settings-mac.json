@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "workbench.colorCustomizations": {
+    "editorLineNumber.activeForeground": "#f2f4f7",
+    "editor.lineHighlightBackground": "#272727"
+  },
+  "editor.fontSize": 16,
+  "editor.rulers": [
+    120
+  ],
+  "files.associations": {
+    "*.jsonschema": "json",
+    "Vagrantfile": "ruby",
+    "*.toml": "properties"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "vscode-icons",
+  // "editor.formatOnSave": true,
+  "editor.minimap.enabled": true,
+  "editor.dragAndDrop": true,
+  "editor.fontFamily": "Menlo, 'Roboto Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "workbench.activityBar.visible": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.renderWhitespace": "boundary"
+}
