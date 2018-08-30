@@ -5,6 +5,7 @@
     "editor.lineHighlightBackground": "#272727"
   },
   "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
   "editor.rulers": [
     120
   ],

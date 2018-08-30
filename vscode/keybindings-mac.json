@@ -116,15 +116,25 @@
     "command": "workbench.action.files.openFolder"
   },
   {
-    "key": "alt+left",
+    "key": "ctrl+alt+left",
     "command": "workbench.action.navigateBack"
   },
   {
-    "key": "alt+right",
+    "key": "ctrl+alt+right",
     "command": "workbench.action.navigateForward"
   },
   {
     "key": "cmd+t",
     "command": "workbench.action.gotoSymbol"
-  }
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
 ]
