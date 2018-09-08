@@ -171,7 +171,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1224 220 445 77 0 0 2560 1440 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2881 501 796 486 2560 0 2560 1440 </string>
+	<string>2670 583 1016 512 2560 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>160 498 905 552 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -1126,6 +1126,13 @@
 					<integer>11</integer>
 					<key>Text</key>
 					<string>0x15</string>
+				</dict>
+				<key>0x7f-0x80000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x17</string>
 				</dict>
 				<key>0xf700-0x220000</key>
 				<dict>
