@@ -24,4 +24,5 @@ alias git-push-upstream='git push --set-upstream origin $(git symbolic-ref --sho
 alias gpu='git-push-upstream'
 alias git-delete-remote-branch='git push --delete origin'
 compdef _git git-delete-remote-branch=git-checkout
+alias git-copy-last-commit-message='git log -1 --pretty=%B | cat | pbcopy'
 
