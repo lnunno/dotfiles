@@ -13,10 +13,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Rust language plugin
-Plugin 'rust-lang/rust.vim'
+"Plugin 'rust-lang/rust.vim'
 
 " Runs linters on a number of languages
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 
 " Lots of predefined colorschemes including wombat and monokai
 Bundle 'flazz/vim-colorschemes'
@@ -27,6 +27,9 @@ Plugin 'editorconfig/editorconfig-vim'
 " This needs to be compiled/installed explicitly in ~/.vim/bundles/youcompleteme
 "Plugin 'valloric/youcompleteme'
 Plugin 'davidhalter/jedi-vim'
+
+" Typescript highlighting
+Plugin 'leafgarland/typescript-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
