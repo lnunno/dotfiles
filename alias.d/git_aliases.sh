@@ -25,4 +25,8 @@ alias gpu='git-push-upstream'
 alias git-delete-remote-branch='git push --delete origin'
 compdef _git git-delete-remote-branch=git-checkout
 alias git-copy-last-commit-message='git log -1 --pretty=%B | cat | pbcopy'
-
+alias cdg='cd $(git rev-parse --show-toplevel)'
+alias git-branchname='git rev-parse --abbrev-ref HEAD'
+alias backup-branch='git branch $(git-branchname)-backup'
+alias my-branches='git --no-pager branch -a | grep lnunno'
+alias my-backups='my-branches | grep backup'
