@@ -13,6 +13,7 @@ alias gcv="git commit -v"
 alias gco="git checkout"
 alias gcod="git checkout develop"
 alias gcom="git checkout master"
+alias gcob="git checkout -B"
 alias gm="git merge"
 alias gd="git diff"
 alias gpo='git push --set-upstream origin'
