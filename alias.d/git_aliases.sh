@@ -34,3 +34,6 @@ alias update-backup='remove-backup && backup-branch'
 alias my-branches='git --no-pager branch -a | grep lnunno'
 alias my-backups='my-branches | grep backup'
 alias remove-all-backup-branches='my-backups | cat | xargs -n 1 git branch -D'
+
+alias git-rebase-onto-develop='git rebase origin/develop'
+alias grbod='git rebase origin/develop'

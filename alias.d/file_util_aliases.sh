@@ -1,7 +1,7 @@
 # These aliases use ripgrep (rg) and fuzzy find (fzf), so install those first before using these!
 
-# fd - cd to selected directory
-function fd() {
+# cd to selected fzf directory
+function fzfcd() {
     local dir
     dir=$(find ${1:-.} -path '*/\.*' -prune \
                     -o -type d -print 2> /dev/null | fzf +m) &&
