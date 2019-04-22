@@ -16,10 +16,10 @@ antigen use oh-my-zsh
 antigen bundles <<EOBUNDLES
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-completions
-  
+
   # Due to bug: https://github.com/zsh-users/zsh-autosuggestions/issues/296
   zsh-users/zsh-autosuggestions@v0.4.0
-  
+
   git
   git-prompt
   autojump
@@ -32,8 +32,6 @@ antigen bundles <<EOBUNDLES
 
   # Python bundles
   pip
-  autopep8
-  httpie
   esc/conda-zsh-completion
 
   # Rust bundles
@@ -58,5 +56,6 @@ antigen apply
 
 [ -f virtualenvwrapper.sh ]  && source virtualenvwrapper.sh
 [ -f /etc/profile.d/autojump.sh ]  && . /etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 [ -f /usr/share/autojump/autojump.sh ] && . /usr/share/autojump/autojump.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
