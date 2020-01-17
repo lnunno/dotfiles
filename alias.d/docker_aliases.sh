@@ -4,6 +4,10 @@ alias docker-clean-dangling-images='docker rmi $(docker images --filter "danglin
 alias docker-delete-all-images='docker rmi $(docker images -q) -f'
 alias docker-clean-all-images='docker-delete-all-images'
 alias docker-clean-dangling-volumes='docker volume rm $(docker volume ls -f dangling=true -q)'
+alias docker-stop-all-containers='docker container stop $(docker container ls -aq)'
+alias docker-remove-all-containers='docker container rm $(docker container ls -aq)'
+alias docker-stop-and-remove-all-containers='docker-stop-all-containers && docker-remove-all-containers'
+alias restart-docker='killall Docker && open /Applications/Docker.app'
 
 alias dck='docker'
 alias di='docker images'

@@ -37,3 +37,4 @@ alias remove-all-backup-branches='my-backups | cat | xargs -n 1 git branch -D'
 
 alias git-rebase-onto-develop='git rebase origin/develop'
 alias grbod='git rebase origin/develop'
+alias gcne!='git commit --amend --no-edit'
