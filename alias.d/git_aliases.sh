@@ -31,7 +31,7 @@ alias git-branchname='git rev-parse --abbrev-ref HEAD'
 alias backup-branch='git branch $(git-branchname)-backup && echo "Created branch $(git-branchname)-backup"'
 alias remove-backup='git branch -D $(git-branchname)-backup'
 alias update-backup='remove-backup && backup-branch'
-alias my-branches='git --no-pager branch -a | grep lnunno'
+alias my-branches='git --no-pager branch --sort=-committerdate -a | grep -v "remotes/" | grep lnunno'
 alias my-backups='my-branches | grep backup'
 alias remove-all-backup-branches='my-backups | cat | xargs -n 1 git branch -D'
 
