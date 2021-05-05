@@ -35,7 +35,7 @@ Plugin 'leafgarland/typescript-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme wombat256mod
+silent! colorscheme wombat256mod
 set number              " Number the lines of the file
 set autoindent
 set shiftwidth=4
